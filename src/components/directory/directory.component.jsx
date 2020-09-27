@@ -1,7 +1,7 @@
 import React from 'react';
 import MenuItem from '../menu-item/menu-item.component';
 import './directory.styles.scss';
-
+import gyu_don from '../images/gyu_don.png'
 class Directory extends React.Component {
   constructor() {
     super();
@@ -9,8 +9,10 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: 'hats',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          title: 'Rice',
+          //images: '../images/gyu_don.png',
+          //backgroundImage: 'url(' + imgUrl + ')',
+          imageUrl: gyu_don,
           id: 1
         },
         {
