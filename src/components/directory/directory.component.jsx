@@ -1,7 +1,19 @@
 import React from 'react';
 import MenuItem from '../menu-item/menu-item.component';
 import './directory.styles.scss';
-import gyu_don from '../images/gyu_don.png'
+
+import chicken_curry from '../images/chicken_curry.png';
+import chicken_katsu_don from '../images/chicken_katsu_don.png';
+import chicken_katsu from '../images/chicken_katsu.png';
+import extra_rice from '../images/extra_rice.png';
+import gyu_don from '../images/gyu_don.png';
+import karrage_chicken from '../images/karrage_chicken.png';
+import miso_soup from '../images/miso_soup.png';
+import udon from '../images/udon.png';
+import yakisoba from '../images/yakisoba.png'
+import drinks from '../images/drinks.png';
+
+
 class Directory extends React.Component {
   constructor() {
     super();
@@ -10,30 +22,28 @@ class Directory extends React.Component {
       sections: [
         {
           title: 'Rice',
-          //images: '../images/gyu_don.png',
-          //backgroundImage: 'url(' + imgUrl + ')',
           imageUrl: gyu_don,
           id: 1
         },
         {
-          title: 'jackets',
-          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+          title: 'Noodle',
+          imageUrl: udon,
           id: 2
         },
         {
-          title: 'sneakers',
-          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+          title: 'Curry',
+          imageUrl: chicken_curry,
           id: 3
         },
         {
-          title: 'womens',
-          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+          title: 'Extra',
+          imageUrl: miso_soup,
           size: 'large',
           id: 4
         },
         {
-          title: 'mens',
-          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          title: 'Drinks',
+          imageUrl: drinks,
           size: 'large',
           id: 5
         }
